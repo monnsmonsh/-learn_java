@@ -44,8 +44,8 @@ public class Ejemplo {
 }
 ```
 > **Recuerda:**
-> (System.in): Representa la entrada de teclado.
-> **Luego se utilizan los metodo:**
-> nextLine(): Para leer una linea de Texto.
-> nextInt(): Para leer un numero entero.
+>> (System.in): Representa la entrada de teclado.
+>> **Luego se utilizan los metodo:**
+>> nextLine(): Para leer una linea de Texto.
+>> nextInt(): Para leer un numero entero.
 
