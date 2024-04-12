@@ -83,3 +83,13 @@ Puedes imprimir valores individuales de la matriz segun sea necesario, esto tamb
   System.out.println("numeros[Filas][Columnas]");
 ```
 
+## 10 -> Operadores Relacionales
+Los operadores **Relacionales** comparan dos valores y devuelven un resultado booleano (`true` o `false`). Estos operadores se utilizan para establecer relaciones de orden entre valores.
+|Operador                | Nombre | Ejemplo |
+|----------------|----------------|----------------|
+| **<** | Menor que | `5<4` |
+| **>** | Mayor que | `A>B` |
+| **==** | Igual a | `14==14` |
+| **!=** | No igual a *(diferente)*| `perro != gato` |
+
+
