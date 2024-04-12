@@ -43,9 +43,18 @@ public class Ejemplo {
   }
 }
 ```
-> **Recuerda:**
+> **RECUERDA:**
 >> (System.in): Representa la entrada de teclado.
->> **Luego se utilizan los metodo:**
->> nextLine(): Para leer una linea de Texto.
->> nextInt(): Para leer un numero entero.
+>>> **Luego se utilizan los metodo:**
+>>> nextLine(): Para leer una linea de Texto.
+>>> nextInt(): Para leer un numero entero.
 
+## 08 -> Compara cadenas de texto
+###  metodo `equals()`
+En java el metodo `equals()`, es un metodo de la clase `OBJECT` que se utiliza para comparar si dos objetos son iguales en terminos de contenido.
+El metodo `equals()`, se puede usar con `Cadenas`.
+```java
+if(texto_1.equals(texto_2)){
+  System.out.println("Son iguales");
+}
+```
