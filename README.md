@@ -50,7 +50,7 @@ public class Ejemplo {
 >>> nextInt(): Para leer un numero entero.
 
 ## 08 -> Compara cadenas de texto
-###  metodo `equals()`
+###  Metodo `equals()`
 En java el metodo `equals()`, es un metodo de la clase `OBJECT` que se utiliza para comparar si dos objetos son iguales en terminos de contenido.
 El metodo `equals()`, se puede usar con `Cadenas`.
 ```java
@@ -58,3 +58,14 @@ if(texto_1.equals(texto_2)){
   System.out.println("Son iguales");
 }
 ```
+
+###  Metodo `length()`
+El metodo `length()` es un metodo utilizado para obtener la longitud o el numero de elementos de un secuencia, como una **Cadena de texto**, un **arreglo** o una **coleccion**
+```java
+String txtOriginal = "Ajolote";
+int txtConvertido = txtOriginal.length();
+```
+
+## 10 -> Arrelgos Bidimensionales
+###  Metrices
+
