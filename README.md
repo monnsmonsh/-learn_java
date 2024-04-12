@@ -73,6 +73,7 @@ Los arreglos Bidimensionales tambien conocidos como matrices, son estructuras de
 int numeros[][] = new int [Filas][Columnas];
 ```
 Asignacion de valores:
+En Filas`0` Columnas`1` Contenido`10`
 ```java
 numeros[0][1] = 10;
 ```
