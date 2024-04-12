@@ -16,7 +16,7 @@
     - Es una estrutura de control de flujo de programa que permite tomar decisiones condicionales.
     - Se ejecuta si una condicion es verdadera `if` y si no `else`.
     
-      ``` java
+      ```java
       int x = 10;
       for (x > 5){
         System.out,println("x es mayor que 5 ");
