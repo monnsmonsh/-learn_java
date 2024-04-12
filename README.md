@@ -1,6 +1,6 @@
 # Aprende java
 
-## 05-> Estrutura de Repeticion
+## 05 Estrutura de Repeticion
 ### Estrutura For
   Definicion de For:
   
