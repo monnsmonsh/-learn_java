@@ -85,11 +85,21 @@ Puedes imprimir valores individuales de la matriz segun sea necesario, esto tamb
 
 ## 10 -> Operadores Relacionales
 Los operadores **Relacionales** comparan dos valores y devuelven un resultado booleano (`true` o `false`). Estos operadores se utilizan para establecer relaciones de orden entre valores.
-|Operador                | Nombre | Ejemplo |
+| Operador | Nombre | Ejemplo |
 |----------------|----------------|----------------|
 | **<** | Menor que | `5<4` |
 | **>** | Mayor que | `A>B` |
 | **==** | Igual a | `14==14` |
-| **!=** | No igual a *(diferente)*| `perro != gato` |
+| **!=** | No igual a *(diferente)* | `perro != gato` |
+| **<=** | Menor que o igual a | `A<=B` |
+| **>=** | Mayor que o igual a | `A>=B` |
 
-
+```java
+int a = 10;
+int b = 10;
+if(a==b){
+  System.out.println(a+" y "+b+" Son iguales");
+}else{
+  System.out.println("No son iguales");
+}
+```
