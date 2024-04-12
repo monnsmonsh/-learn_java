@@ -67,5 +67,18 @@ int txtConvertido = txtOriginal.length();
 ```
 
 ## 10 -> Arrelgos Bidimensionales
-###  Metrices
+###  Matrices
+Los arreglos Bidimensionales tambien conocidos como matrices, son estructuras de datos que se contienen en filas y columnas.
+```java
+int numeros[][] = new int [Filas][Columnas];
+```
+Asignacion de valores:
+```java
+numeros[0][1] = 10;
+```
+Impresion:
+Puedes imprimir valores individuales de la matriz segun sea necesario, esto tambien se puede optimizar con bucles como: **FOR**
+```java
+  System.out.println("numeros[Filas][Columnas]");
+```
 
