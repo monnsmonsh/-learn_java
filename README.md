@@ -26,4 +26,26 @@
     }
     ```
       
-  Ejemplo->
+## 07 -> Paquete `java.util` clase `Scanner`
+Scanner es una clase en Java que se encuentra en el paquete `java.util` y se utiliza para obtener la entrada de datos del usuario `import java.util.Scanner;`.
+
+```java
+import java. util. Scanner;
+
+public class Ejemplo {
+  public static void main (String argz [] ) {
+    Scanner in = new Scanner(System.in);
+
+    System.out.println("Ingresa un numero: ");
+    int numero = in.nextInt();
+
+    System.out.println("El numero ingresado es: "+numero);
+  }
+}
+```
+> **Recuerda:**
+> (System.in): Representa la entrada de teclado.
+> **Luego se utilizan los metodo:**
+> nextLine(): Para leer una linea de Texto.
+> nextInt(): Para leer un numero entero.
+
