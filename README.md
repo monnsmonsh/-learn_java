@@ -1,7 +1,7 @@
 # Aprende java
 
 ## 05 -> Estrutura de Repeticion
-### Estrutura For
+### Estrutura **For**
   Definicion de For:
   
   - Es una estrutura de control de flujo que facilita la ejecucion de un bloque de codigo de variras veces
@@ -12,7 +12,7 @@
       System.out,println("Iteracion " + i);
     }
     ```
-      
+### Estrutura **If-Else**    
   Definicion de If-else:
   - Es una estrutura de control de flujo de programa que permite tomar decisiones condicionales.
   - Se ejecuta si una condicion es verdadera `if` y si no `else`.
@@ -103,3 +103,22 @@ if(a==b){
   System.out.println("No son iguales");
 }
 ```
+
+## 13 -> Estrutura de Control
+### Switch - Case
+Switch toma desiciones basadas en el valor de una exprexion, ejecutando diferentes bloques de codigo segun los casos posibles, siendo una alternativa concisa a multiples **If-Else**.
+```java
+switch(expresion){
+  case valor1:
+    //Codigo a ejecutar
+    break;
+  case valor2:
+      //Codigo a ejecutar
+      break;
+  default:
+      //Codigo a ejecutar
+      break;
+}
+```
+
+
